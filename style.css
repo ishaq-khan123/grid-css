@@ -78,10 +78,31 @@ html{
 .box-37{
    background-color: #1b2e16;
 }
+nav{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 20px;
+   font-size: 1.8rem;
+}
+.link{
+   border: 1px solid black;
+   text-decoration: none;
+   padding: 5px;
+   color: black;
+   font-weight: bolder;
+   background: linear-gradient(#65cceb, #4a899c, #327b91);
+}
+/* @media (max-width:580){
+   .link{
+     display: grid;
+     grid-template-columns: repeat(4 , 1fr); 
+   }
+} */
 .container{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
@@ -95,7 +116,7 @@ html{
 .container-1{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
@@ -113,7 +134,7 @@ html{
 .container-2{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 10px;
@@ -136,7 +157,7 @@ html{
 .container-3{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 10px;
@@ -166,7 +187,7 @@ html{
 .container-4{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: 10px;
@@ -177,7 +198,7 @@ html{
 .container-5{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 10px;
@@ -194,7 +215,7 @@ html{
 .container-6{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: 10px;
@@ -223,7 +244,7 @@ html{
 .container-7{
     border: none;
     background-color: #534d4d;
-    height: 90vh;
+    height: 82vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     padding: 10px;
